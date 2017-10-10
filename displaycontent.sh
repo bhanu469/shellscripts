@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "please enter the path"
-read x
+x=$1
 if [ -f $x ]
 then
  cat $x
